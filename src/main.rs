@@ -2,7 +2,7 @@ use serde_json::{json, Value};
 use unreact::prelude::*;
 
 // Where the site is hosted
-const URL: &str = "https://darccyy.github.io";
+const URL: &str = "https://darccyy.github.io/unreact-template";
 
 fn main() -> UnreactResult<()> {
   let mut app = Unreact::new(Config::default(), is_dev(), URL)?;
