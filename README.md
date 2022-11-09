@@ -9,3 +9,5 @@ A basic template for Unreact SSG apps in Rust.
 # Usage
 
 uhh...
+
+![Unreact Icon](./public/icon.png)
