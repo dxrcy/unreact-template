@@ -1,7 +1,8 @@
 use serde_json::{json, Value};
 use unreact::prelude::*;
 
-const URL: &str = "https://example.com";
+// Where the site is hosted
+const URL: &str = "https://darccyy.github.io";
 
 fn main() -> UnreactResult<()> {
   let mut app = Unreact::new(Config::default(), is_dev(), URL)?;
