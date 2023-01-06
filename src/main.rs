@@ -14,7 +14,7 @@ fn main() -> UnreactResult<()> {
     .not_found("404", &Value::Null)?;
 
   // Custom page
-  app.page("hello/there", "hello", &Value::Null)?;
+  app.page("hello/there", "hello", &json!({"list": vec![1, 2, 3, 4, 5]}))?;
 
   // Complete app
   app.finish()?;
