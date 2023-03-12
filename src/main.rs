@@ -5,19 +5,23 @@ use unreact::prelude::*;
 const URL: &str = "https://darccyy.github.io/unreact-template";
 
 fn main() -> UnreactResult<()> {
-  let mut app = Unreact::new(Config::default(), is_dev(), URL)?;
+    let mut app = Unreact::new(Config::default(), is_dev(), URL)?;
 
-  app
-    // Index page
-    .index("index", &json!({"secret": "Hello!"}))?
-    // 404 page
-    .not_found("404", &Value::Null)?;
+    app
+        // Index page
+        .index("index", &json!({"secret": "Hello!"}))?
+        // 404 page
+        .not_found("404", &Value::Null)?;
 
-  // Custom page
-  app.page("hello/there", "hello", &json!({"list": vec![1, 2, 3, 4, 5]}))?;
+    // Custom page
+    app.page(
+        "hello/there",
+        "hello",
+        &json!({ "list": vec![1, 2, 3, 4, 5] }),
+    )?;
 
-  // Complete app
-  app.finish()?;
+    // Complete app
+    app.finish()?;
 
-  Ok(())
+    Ok(())
 }
