@@ -8,6 +8,13 @@ A basic template for Unreact SSG apps in Rust.
 
 # Usage
 
-uhh...
+```bash
+# Clone the repo
+git clone https://github.com/darccyy/unreact-template my-app
+cd my-app
+
+# Run in dev mode
+cargo run -- --dev
+```
 
 ![Unreact Icon](./public/icon.png)

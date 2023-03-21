@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title> Unreact Template </title>
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  {{!--
-  <link rel="shortcut icon" href="{{>URL}}/public/image/icon.png"> --}}
-
-  {{!-- Global styles --}}
-  {{>STYLE name="global"}}
+<head> {{>META}}
+    <title> Unreact Template </title>
+    {{!-- Icon in public folder --}}
+    {{>ICON name="icon.png"}}
+    {{!-- Global styles --}}
+    {{>CSS name="global"}}
 </head>
 
 <body>
 
-  {{!-- Rest of document --}}
-  {{>@partial-block}}
+    {{!-- Rest of document --}}
+    {{>@partial-block}}
 
 </body>
 
