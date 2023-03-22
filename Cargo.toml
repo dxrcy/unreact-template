@@ -4,5 +4,7 @@ version = "0.2.0"
 edition = "2021"
 
 [dependencies]
-unreact = "0.2.0-alpha6"
-# unreact = { path = "../../unreact" }
+unreact = { version = "0.2.0-alpha8", default-features = false }
+
+[features]
+default = ["unreact/dev"]

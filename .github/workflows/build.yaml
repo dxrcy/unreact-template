@@ -19,7 +19,7 @@ jobs:
       # Run compilation script with Rust
       - name: Build 🔧
         run: |
-          cargo run
+          cargo run --no-default-features
 
       # Push changes with plugin
       - name: Deploy 🚀
