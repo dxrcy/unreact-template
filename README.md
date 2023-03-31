@@ -14,7 +14,10 @@ git clone https://github.com/darccyy/unreact-template my-app
 cd my-app
 
 # Run in dev mode
-cargo run -- --dev
+just watch
+
+# Compile in production mode
+cargo run --no-default-features
 ```
 
 ![Unreact Icon](./public/icon.png)

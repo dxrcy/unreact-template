@@ -1,10 +1,11 @@
 [package]
-name = "unreact-template"
-version = "0.2.0"
+name = "my-unreact-app"
+version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-unreact = { version = "0.2.1", default-features = false }
+# unreact = { version = "0.2.1", default-features = false }
+unreact = { path = "../../unreact", default-features = false }
 
 [features]
 default = ["unreact/watch"]

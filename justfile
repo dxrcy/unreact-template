@@ -1,2 +1,2 @@
 watch:
-    cargo watch -x run -w src
+    cargo watch -x "run -- --dev" -w src

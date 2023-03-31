@@ -822,6 +822,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "my-unreact-app"
+version = "0.1.0"
+dependencies = [
+ "unreact",
+]
+
+[[package]]
 name = "nanorand"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1535,9 +1542,7 @@ checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
 
 [[package]]
 name = "unreact"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8741e4c912d5644f22504becf6c46e2df86b8c68e793dbc00d0ba0db900170f"
+version = "0.3.0-alpha.4"
 dependencies = [
  "cfg-if",
  "chrono",
@@ -1556,13 +1561,6 @@ dependencies = [
  "stilo",
  "thiserror",
  "tokio",
-]
-
-[[package]]
-name = "unreact-template"
-version = "0.2.0"
-dependencies = [
- "unreact",
 ]
 
 [[package]]
