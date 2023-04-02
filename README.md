@@ -1,22 +1,25 @@
 # Unreact Template
 
-A basic template for Unreact SSG apps in Rust.
+A basic template for [Unreact](https://crates.io/crates/unreact) SSG apps in Rust.
 
-[Unreact on Crates.io](https://crates.io/crates/unreact)
+-   [Live on GitHub Pages](https://darccyy.github.io/unreact-template)
+-   [Unreact documentation](https://docs.rs/unreact/latest/unreact)
 
-[Live on GitHub Pages](https://darccyy.github.io/unreact-template)
+This template uses the latest stable version of Unreact.
 
 # Usage
 
 ```bash
 # Clone the repo
-git clone https://github.com/darccyy/unreact-template my-app
-cd my-app
+git clone https://github.com/darccyy/unreact-template my-unreact-app
+cd my-unreact-app
 
 # Run in dev mode
-just watch
+# Serves to localhost:3000, reloads client on file changes
+just serve
 
 # Compile in production mode
+# This is in the GitHub action
 cargo run --no-default-features
 ```
 
