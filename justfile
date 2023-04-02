@@ -1,2 +1,2 @@
 watch:
-    cargo watch -x "run -- --dev" -w src
+    cargo watch -x "run -- --dev" -w src -w Cargo.toml
