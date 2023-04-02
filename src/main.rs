@@ -20,5 +20,9 @@ fn main() -> Result<(), Error> {
     );
 
     // Complete app
-    app.run()
+    app.run()?;
+
+    // Only prints if NOT in dev mode
+    println!("Compiled for production.");
+    Ok(())
 }
