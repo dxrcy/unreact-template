@@ -1,9 +1,10 @@
-# Unreact Template
+# Unreact App Template
 
-A basic template for [Unreact](https://crates.io/crates/unreact) SSG apps in Rust.
+A basic template for an [Unreact](https://crates.io/crates/unreact) SSG app in Rust.
 
 -   [Live on GitHub Pages](https://darccyy.github.io/unreact-template)
 -   [Unreact documentation](https://docs.rs/unreact/latest/unreact)
+-   [Unreact template source](https://github.com/darccyy/unreact-template)
 
 This template uses the latest stable version of Unreact.
 
