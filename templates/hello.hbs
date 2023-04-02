@@ -2,18 +2,19 @@
 
 <main>
 
-  <h1>Hello!</h1>
+    <h1>Hello!</h1>
 
-  <p>
-    <a href="{{>URL}}"> Home </a>
-  </p>
+    <p>
+        <a href="{{URL}}"> Home </a>
+    </p>
 
-  <p>
-    List:
-    {{#each list}}
-    {{this}}
-    {{/each}}
-  </p>
+    <h2>List of Numbers</h2>
+
+    <p>
+        {{#each list}}
+        {{this}}{{#unless @last}},{{/unless}}
+        {{/each}}
+    </p>
 
 </main>
 
