@@ -1541,9 +1541,9 @@ checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
 
 [[package]]
 name = "unreact"
-version = "0.3.1"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1c6286e0bbcd3443002c359b6e9362fbeb722304c46f42e2eeb8d052f21ba78a"
+checksum = "ce6e7db976606700f33d63ded8feaf53eb962817c0c84a6f2881aab195de49c8"
 dependencies = [
  "chrono",
  "const-str",
