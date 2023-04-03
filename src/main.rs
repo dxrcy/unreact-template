@@ -8,19 +8,11 @@ fn main() -> Result<(), Error> {
 
     app
         // Index page
-        .index("index", object! { secret: "Hello!" })
+        .index("homepage", object! { secret: "Hello!" })
         // 404 page
-        .not_found("404", object! {});
-
-    // Custom page
-    app.route(
-        "hello/there",
-        "hello",
-        object! { list: vec![1, 2, 3, 4, 5] },
-    );
-
-    // Complete app
-    app.run()?;
+        .not_found("404", object! {})
+        // Complete app
+        .run()?;
 
     // Only prints if NOT in dev mode
     println!("Compiled for production.");
