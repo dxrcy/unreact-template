@@ -24,4 +24,12 @@ just serve
 cargo run --no-default-features
 ```
 
+## GitHub Pages Setup
+
+GitHub will automatically build to the `gh-pages` branch, with the `build.yaml` Action.
+The action will automatically run when the repository is initially cloned.
+
+In repository settings, navigate to the `Pages` tab, and change 'Branch' to `gh-pages`.
+GitHub pages will automatically update, and the website should be live soon.
+
 ![Unreact Icon](./public/icon.png)
