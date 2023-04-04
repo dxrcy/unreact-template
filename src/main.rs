@@ -8,9 +8,9 @@ fn main() -> Result<(), Error> {
 
     app
         // Index page
-        .index("homepage", object! { secret: "Hello!" })
+        .index("homepage", object! { secret: "Hello!" })?
         // 404 page
-        .not_found("404", object! {})
+        .not_found("404", object! {})?
         // Complete app
         .run()?;
 
