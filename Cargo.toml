@@ -6,5 +6,3 @@ edition = "2021"
 [dependencies]
 unreact = "0.6.0"
 
-[features]
-default = ["unreact/watch"]
