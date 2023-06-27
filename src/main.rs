@@ -1,10 +1,7 @@
 use unreact::prelude::*;
 
-// Where the site is hosted
-const URL: &str = "https://darccyy.github.io/unreact-template";
-
 fn main() -> Result<(), Error> {
-    let mut app = Unreact::new(Config::default(), is_dev(), URL)?;
+    let mut app = Unreact::new(Config::default(), is_dev())?;
 
     app
         // Index page
