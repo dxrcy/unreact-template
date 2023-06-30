@@ -5,3 +5,4 @@ serve:
 # Build for production
 build:
     cargo run
+

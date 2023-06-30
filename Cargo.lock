@@ -805,9 +805,8 @@ checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
 
 [[package]]
 name = "unreact"
-version = "0.6.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9ebc910ad5ace7e9b7ee0e2bb6b9f94742848b92eede659fe8968d8ce218a0a"
+version = "0.7.0"
+source = "git+https://github.com/darccyy/unreact.git#eaa01b06a544d9faf516b42ba490fdd5b2ba0cec"
 dependencies = [
  "const-str",
  "css-minify",

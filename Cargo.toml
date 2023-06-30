@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-unreact = "0.6.1"
+# unreact = "0.7.0"
+unreact = { git = "https://github.com/darccyy/unreact.git" }
 
